@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemplo AR", "ejemplo AR.csproj", "{FBE31CBA-DB55-A356-A5A9-EA1D44A2BF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemplo AR.Editor", "ejemplo AR.Editor.csproj", "{D208438E-B569-D6C2-573C-21964E2C3FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE31CBA-DB55-A356-A5A9-EA1D44A2BF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE31CBA-DB55-A356-A5A9-EA1D44A2BF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE31CBA-DB55-A356-A5A9-EA1D44A2BF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE31CBA-DB55-A356-A5A9-EA1D44A2BF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D208438E-B569-D6C2-573C-21964E2C3FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D208438E-B569-D6C2-573C-21964E2C3FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D208438E-B569-D6C2-573C-21964E2C3FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D208438E-B569-D6C2-573C-21964E2C3FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
