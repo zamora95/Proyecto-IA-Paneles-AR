@@ -46,8 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Custom Scripts\ObjectHighlight.cs" />
      <Compile Include="Assets\Custom Scripts\ObjectHighlighter.cs" />
      <Compile Include="Assets\Custom Scripts\OnTouchDown.cs" />
+     <Compile Include="Assets\Custom Scripts\PopUpWindow.cs" />
+     <Compile Include="Assets\Custom Scripts\TapsEvents.cs" />
      <Compile Include="Assets\Custom Scripts\hola.cs" />
      <Compile Include="Assets\LeanTouch\Examples\SimpleDrag.cs" />
      <Compile Include="Assets\LeanTouch\Examples\SimpleInfo.cs" />

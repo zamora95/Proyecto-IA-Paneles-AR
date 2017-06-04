@@ -20,19 +20,22 @@ public class SimpleTap : MonoBehaviour
 	public void OnFingerTap(Lean.LeanFinger finger)
 	{
 		// Does the prefab exist?
-		if (Prefab != null)
-		{
+		if (Prefab != null) {
 			// Make sure the finger isn't over any GUI elements
-			if (finger.IsOverGui == false)
-			{
+			if (finger.IsOverGui == false) {
+				Debug.Log ("Letter A");
 				// Clone the prefab, and place it where the finger was tapped
-				var position = finger.GetWorldPosition(50.0f);
+				var position = finger.GetWorldPosition (50.0f);
 				var rotation = Quaternion.identity;
-				var clone    = (GameObject)Instantiate(Prefab, position, rotation);
+				var clone = (GameObject)Instantiate (Prefab, position, rotation);
 				
 				// Make sure the prefab gets destroyed after some time
-				Destroy(clone, 2.0f);
+				Destroy (clone, 2.0f);
+			} else {
+				Debug.Log ("Letter B");
 			}
+		} else {
+			Debug.Log ("Letter C");
 		}
 	}
 }

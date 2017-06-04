@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="qr2" size="200.000000 228.571426" />
+    <ImageTarget name="qr1" size="200.000000 227.428574" />
+    <ImageTarget name="qr5" size="200.000000 228.571426" />
+    <ImageTarget name="qr4" size="200.000000 228.571426" />
+    <ImageTarget name="qr3" size="200.000000 228.571426" />
+    <ImageTarget name="PS_05" size="200.000000 200.000000" />
+    <ImageTarget name="PS_04" size="200.000000 200.000000" />
+    <ImageTarget name="PS_03" size="200.000000 200.000000" />
+    <ImageTarget name="PS_02" size="200.000000 200.000000" />
     <ImageTarget name="PS_01" size="200.000000 200.000000" />
-    <ImageTarget name="qr5" size="200.000000 200.000000" />
-    <ImageTarget name="qr3" size="200.000000 200.000000" />
-    <ImageTarget name="qr4" size="200.000000 200.000000" />
-    <ImageTarget name="qr2" size="200.000000 200.000000" />
-    <ImageTarget name="qr1" size="200.000000 200.000000" />
     <ImageTarget name="ejemplo" size="200.000000 200.000000" />
   </Tracking>
 </QCARConfig>
